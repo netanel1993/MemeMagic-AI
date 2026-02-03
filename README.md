@@ -2,13 +2,13 @@
 
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 
-# 🚀 AI Studio Application
+# 🚀 AI Application Runner
 
-**Seamlessly deploy and run your AI-powered applications locally.**
+**Run and deploy your custom AI apps locally with ease.**
 
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
 [![Node.js](https://img.shields.io/badge/Node.js-LTS-blue)](https://nodejs.org/)
-[![AI Studio](https://img.shields.io/badge/AI_Studio-Compatible-orange)](https://ai.studio/)
+[![License](https://img.shields.io/badge/License-MIT-yellow)]()
 
 </div>
 
@@ -16,30 +16,29 @@
 
 ## 📖 Overview
 
-Welcome to your AI Studio application! This repository provides a streamlined environment to run, test, and deploy your AI agents and tools locally. It is designed to bridge the gap between AI Studio's cloud capabilities and your local development workflow.
+This repository contains everything you need to run your AI application locally. It provides a robust environment for testing and developing AI-driven features powered by the Gemini API.
 
-**🔗 View live project on AI Studio:** [Open App in AI Studio](https://ai.studio/apps/drive/1NArujnKWWJIJ4zyZ1Xx_mQA8FKtL4aLl)
+**🔗 View Original App:** [Click here](https://ai.studio/apps/drive/1NArujnKWWJIJ4zyZ1Xx_mQA8FKtL4aLl)
 
 ---
 
-## 🛠 Features
+## 🛠 Main Features
 
-* **Local Development:** Full environment for testing your AI Studio configurations.
-* **Gemini Integration:** Powered by Google's Gemini models.
-* **Easy Setup:** Minimal configuration required to get up and running.
-* **Scalable:** Ready to be extended with custom tools or agents.
+* **Quick Start:** Minimal configuration to get your AI environment running.
+* **Local Development:** Full control over your app's local execution.
+* **Environment Ready:** Pre-configured for seamless API integration.
 
 ---
 
 ## 🚀 Getting Started
 
-Follow these steps to get a local copy of the project up and running.
+Follow these steps to get your local environment ready.
 
 ### Prerequisites
 
-* **Node.js** (Latest LTS recommended)
-* **NPM** (Comes with Node.js)
-* A **Gemini API Key** from [Google AI Studio](https://aistudio.google.com/)
+* **Node.js** (LTS Version)
+* **NPM** (Installed with Node.js)
+* **Gemini API Key**
 
 ### Installation & Setup
 
@@ -54,36 +53,26 @@ Follow these steps to get a local copy of the project up and running.
     npm install
     ```
 
-3.  **Configure Environment Variables:** Create or open the `.env.local` file in the root directory and add your API key:
+3.  **Configure Environment Variables:** Set your `GEMINI_API_KEY` in the `.env.local` file:
     ```env
-    GEMINI_API_KEY=your_actual_api_key_here
+    GEMINI_API_KEY=your_api_key_here
     ```
 
-4.  **Launch the Application:**
+4.  **Run the app:**
     ```bash
     npm run dev
     ```
-
-Your app should now be running at [http://localhost:3000](http://localhost:3000)!
 
 ---
 
 ## 📁 Project Structure
 
-* `/src` - Contains the core logic and components.
-* `.env.local` - Local environment variables (git-ignored).
-* `package.json` - Project dependencies and scripts.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! If you have suggestions for improvements or find any bugs, feel free to:
-1. Open an **Issue**.
-2. Submit a **Pull Request**.
+* `/src` - Core application source code.
+* `.env.local` - Local configuration (Do not commit this file).
+* `package.json` - Management of scripts and dependencies.
 
 ---
 
 <div align="center">
-  <sub>Built with ❤️ using AI Studio and Node.js</sub>
+  <sub>Generated for local AI development</sub>
 </div>

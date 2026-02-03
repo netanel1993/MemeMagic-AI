@@ -1,0 +1,7 @@
+{
+  "name": "MemeMagic AI",
+  "description": "An AI-powered meme creator that uses Gemini to suggest hilarious captions and edit images with natural language commands.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
